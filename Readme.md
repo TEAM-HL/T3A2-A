@@ -29,7 +29,7 @@ The homepage for the Player and Coach comprises a tennis court graphic that show
 
 ### Target audience
 
-The target audience are the players and coaches that use the tennis court as well as the admin staff who run the court.
+The target audience are the players and coaches that use the tennis court and the admin staff who run the court.
 
 ### Tech stack (explain what each part of the tech stack is doing)
 
@@ -75,12 +75,11 @@ ToastUI is a JavaScript user interface library. We will be specifically using th
 
 ##### [Multer](https://github.com/expressjs/multer)
 
-This is a middleware we will be using to manage form data and handle the storage of uploaded files to be stored in our database.
-(Potential compatibility issues)
+Multer a middleware that will manage form data and handle the storage of uploaded files to be stored in our database.
 
 ### Context / Dataflow Diagrams
 
-The below *context diagram* gives a birds-eye view of the inputs and outputs that are sent and received between external entities, related to the core purpose of the application. 
+The below *context diagram* gives a birds-eye view of the inputs and outputs related to the core purpose of the application. 
 
 ![CD-input&output](docs/diagrams/ContextDiagram.png)
 
@@ -121,8 +120,6 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 | **Admin**  | Create, Edit and Delete any court booking                    |                                                              |
 | **Admin**  | Create, Edit and Delete any user player or coach user profile |                                                              |
 | **Admin**  | View all player and coach user profiles                      | I can easily locate a user                                   |
-
-
 
 ### Wireframes
 
