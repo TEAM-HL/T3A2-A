@@ -1,19 +1,27 @@
-# T3A2-A - Full Stack App (Part A)
+# ![]()T3A2-A - Full Stack App (Part A)
 
 ## Hugh & Luke
+
+----------
+
+
 
 ### Purpose
 ***Courts*** is a simple to use booking application designed for a local tennis court business. It was developed to replace their previous system that relied on phone bookings and cash envelopes.
 
-### Client Requirements
-- Simple, easy to use court booking system with online payment functionality
-- Ability for Coaches to advertise lessons on a member noticeboard
+##### Client Requirements
+
+- Simple, easy to use UI with 
+- online payments
+- Ability for coaches to advertise lessons on a member noticeboard
 - Admin functions to: 
   - post events on a member noticeboard
   - create, edit and delete any bookings
 
 ### Functionality / Features
-There are three user types: Player, Coach and Admin.
+There are 3 types of user accounts: Player, Coach and Admin. 
+
+
 
 ### Target audience
 
@@ -61,15 +69,17 @@ Toast UI is a UI library for JS, we a specifically using the Calendar branch of 
 This is a middleware we will be using to manage form data and handle the storage of uploaded files to be stored in our database.
 (Potential compatibility issues)
 
-### Dataflow Diagram
+### Dataflow Diagrams
 
-![DFD-Player & coach](/docs/diagrams/)
+![CD-input&output](docs/diagrams/ContextDiagram.png)
 
-![DFD-Admin](/docs/diagrams/)
+![DFD-Player & coach](docs/diagrams/DataFlowDiagram_player_coach.png)
+
+![DFD-Admin](docs/diagrams/DataFlowDiagram_admin.png)
 
 ### Application Architecture Diagram
 
-![AAD](/docs/diagrams/)
+![AAD](docs/diagrams/MERN-Architecture-Diagram.png)
 
 ### 
 
