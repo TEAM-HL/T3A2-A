@@ -57,7 +57,7 @@ ReactJS will be used to create the interactive UI. The interface will automatica
 
 Netlify will host the ReactJS frontend code and assist with testing from the development to the production stage.
 
-[Heroku](https://www.heroku.com/)
+##### [Heroku](https://www.heroku.com/)
 
 Heroku will host the backend code and handle traffic, resources, management and device compatibility.
 
