@@ -4,14 +4,12 @@
 
 ----------
 
-
-
 ### Purpose
 ***Courts*** is a simple to use booking application designed for a local tennis court business. It was developed to replace their previous system that relied on phone bookings and cash envelopes.
 
 ##### Client Requirements
 
-- Simple, easy to use UI with 
+- Simple, easy to use UI 
 - online payments
 - Ability for coaches to advertise lessons on a member noticeboard
 - Admin functions to: 
@@ -34,9 +32,10 @@ NodeJS is a JavaScript runtime environment that allows JavaScript code to be run
 
 ##### ExpressJS
 
-ExpressJS is a web framework that takes care of the routing and 
+(web framework)
 
 ##### Mongoose (MongoDB/Atlas)
+
 (Mongo required for MERN app)Our database will be created using MongoDB this is a RDMS that has many advantages. The most important advantage for us is the ability to store any file type and will allow us to store files that are uploaded to our site by different users. A major use of this is with user profiles and their display pictures. Mongo Atlas allows us to store our data in the cloud and connect it to our application. Still needs Mongoosejs (Schema building)
 
 ##### ReactJS
