@@ -107,4 +107,8 @@ This is a middleware we will be using to manage form data and handle the storage
 
 ### Wireframes
 
+The home page for the wireframes is potentially the most key to the application.  This is because a huge focus of the app (client requirement) is to improve the customer experience of interacting with the business.  With this we have tried to design the home screen to deliver the most important information to the customer as effectively as possible (Court availability).
+
+![Phone-Home-Screen](docs/Phone/MERN-Home-Whim.PNG)
+
 ### Trello
