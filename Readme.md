@@ -45,11 +45,11 @@ NodeJS is a JavaScript runtime environment that allows JavaScript code to be run
 
 ##### Netlify 
 
-(frontend) testing, management system (repo to deployment)
+Netlify has a streamlined deployment pipeline and is great for creating testing enviroments.  Netlify is designed for frontend development.
 
 ##### Heroku
 
-(backend) handling traffic, resources, management, device compatibility
+Heroku will be used to host the server for the MERN app.  Heroku is great at managing resource allocation and can be scaled up easily to suit incoming traffic.
 
 ##### OAuth
 
