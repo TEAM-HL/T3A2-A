@@ -17,9 +17,13 @@
   - create, edit and delete any bookings
 
 ### Functionality / Features
-There are 3 types of user accounts: Player, Coach and Admin. 
+There are 3 types of user accounts: *Player*, *Coach* and Admin. 
 
+Players can book a court for an allotted time and hire additional tennis gear at checkout. Coaches can do the same as players with the added ability to advertise their coaching services on the member noticeboard.
 
+Admins can create, edit and delete any booking or any post on the virtual noticeboard. 
+
+The homepage for the Player and Coach comprises a tennis court graphic that shows the current and next availability of each court. The Admin has an additional calendar interface to see bookings across days and weeks, as well as events.
 
 ### Target audience
 
@@ -68,11 +72,17 @@ Toast UI is a UI library for JS, we a specifically using the Calendar branch of 
 This is a middleware we will be using to manage form data and handle the storage of uploaded files to be stored in our database.
 (Potential compatibility issues)
 
-### Dataflow Diagrams
+### Context / Dataflow Diagrams
+
+The below *context diagram* gives a birds-eye view of the inputs and outputs that are sent and received between external entities, related to the core purpose of the application. 
 
 ![CD-input&output](docs/diagrams/ContextDiagram.png)
 
+The below *Dataflow Diagram* illustrates how/what data is passed around the application from the perspective of a Player or Coach.
+
 ![DFD-Player & coach](docs/diagrams/DataFlowDiagram_player_coach.png)
+
+The below *Dataflow Diagram* illustrates the additional dataflows that exist for an Admin.
 
 ![DFD-Admin](docs/diagrams/DataFlowDiagram_admin.png)
 
@@ -88,13 +98,13 @@ This is a middleware we will be using to manage form data and handle the storage
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Player** | Create a court booking                                       |                                                              |
 | **Player** | Hire additional gear as part of court booking                | only one transaction is required                             |
-|            | *include: racquet & ball canister options*                   |                                                              |
+|            | *include racquet & ball canister options*                    |                                                              |
 | **Player** | Send a message to the admin                                  | I can have any query or problem resolved                     |
 | **Player** | View my current bookings                                     |                                                              |
 | **Player** | View a current booking                                       |                                                              |
 | **Player** | Edit or Delete a current booking                             |                                                              |
 | **Coach**  | Hire additional gear as part of court booking                | only one transaction is required                             |
-|            | *include: racquet, ball canister & ball hopper options*      |                                                              |
+|            | *include racquet, ball canister & ball hopper options*       |                                                              |
 | **Coach**  | Send a message to the admin for assistance                   | I can have any query or problem resolved                     |
 | **Coach**  | Post advertisement for lessons on events page                | student players can contact me                               |
 | **Admin**  | View all court bookings on a single calendar                 | I can visually assess current court bookings and locate any upcoming bookings |
