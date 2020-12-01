@@ -75,7 +75,7 @@ ToastUI is a JavaScript user interface library. We will be specifically using th
 
 ##### [Multer](https://github.com/expressjs/multer)
 
-Multer a middleware that will manage form data and handle the storage of uploaded files to be stored in our database.
+Multer is a middleware that will manage form data and handle the storage of uploaded files to be stored in our database.
 
 ### Context / Dataflow Diagrams
 
