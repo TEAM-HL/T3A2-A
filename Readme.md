@@ -45,7 +45,7 @@ NodeJS is a JavaScript runtime environment that allows JavaScript code to be run
 
 ##### Netlify 
 
-Netlify has a streamlined deployment pipeline and is great for creating testing enviroments.  Netlify is designed for frontend development.
+Netlify has a streamlined deployment pipeline (can deploy straight from github) and is great for creating testing enviroments.  Netlify is designed for frontend development.  This will host our frontend due to these advantages (great with React).
 
 ##### Heroku
 
