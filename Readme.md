@@ -115,6 +115,6 @@ Some additional features to the application include account types.  For example 
 
 <img style="float: left" src="docs/Phone/MERN-Userlist-Whim.PNG">
 
-<img style="float: left" src="docs/Phone/MERN-Profile-Whim.PNG">
+<img style="float: right" src="docs/Phone/MERN-Profile-Whim.PNG">
 
 ### Trello
