@@ -126,4 +126,20 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 
 ### Wireframes
 
+The home page for the wireframes is potentially the most key to the application.  This is because a huge focus of the app (client requirement) is to improve the customer experience of interacting with the business.  With this we have tried to design the home screen to deliver the most important information to the customer as effectively as possible (Court availability).
+
+![Phone-Home-Screen](docs/Phone/MERN-Home-Whim.PNG)
+
+Some additional features to the application include account types.  For example admin accounts will have access to a userlist to quickly find individuals and their profiles.  All user accounts will be player accounts by default so admins neede permission to edit user accounts when coaches have been verified.  Below are some admin account screens.
+
+Userlist            |  Profile | Edit Profile
+:--:|:--:|:--:
+![Phone-Userlist-Screen](docs/Phone/MERN-Userlist-Whim.PNG)  |  ![Phone-Profile-Screen](docs/Phone/MERN-Profile-Whim.PNG) | ![Phone-EditProfile-Screen](docs/Phone/MERN-EditProfile-Whim.PNG)
+
+In terms of responsiveness outside some margin and spacing changes there won't bee anything too major changing with design.  The biggest changes will be the home page for Tablet and Desktop, making use of the larger screen size to introduce a graphic for court availability and a navigation bar on desktop to utilise screen width.
+
+Tablet (availability) | Desktop (nav bar)
+:--:|:--:
+![Tablet-Home-Screen](docs/Tablet/MERN-Home-Whim-T.PNG) | ![Desktop-Bookingslist-Screen](docs/Desktop/MERN-Bookingslist-Whim-D.PNG)
+
 ### Trello
