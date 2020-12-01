@@ -19,6 +19,8 @@
 ### Functionality / Features
 There are 3 types of user accounts: *Player*, *Coach* and Admin. 
 
+Users must create a profile first before a booking can be made and have the option of uploading a profile picture.
+
 Players can book a court for an allotted time and hire additional tennis gear at checkout. Coaches can do the same as players with the added ability to advertise their coaching services on the member noticeboard.
 
 Admins can create, edit and delete any booking or any post on the virtual noticeboard. 
@@ -31,43 +33,47 @@ The target audience are the players and coaches that use the tennis court as wel
 
 ### Tech stack (explain what each part of the tech stack is doing)
 
-##### NodeJS 
-NodeJS is a JavaScript runtime environment that allows JavaScript code to be run on the server. It powers the ExpressJS Web Framework.
+##### [NodeJS](https://nodejs.org/) 
+NodeJS is a JavaScript runtime environment that allows JavaScript code to be run on the server. 
 
-##### ExpressJS
+##### [ExpressJS](https://expressjs.com/)
 
-(web framework)
+ExpressJS is a web framework that runs on top of NodeJS and will be used to handle HTTP requests, middleware and routing.
 
-##### Mongoose (MongoDB/Atlas)
+##### [MongoDB](https://www.mongodb.com/) / [Atlas](https://www.mongodb.com/cloud/atlas) / [Mongoose](https://mongoosejs.com/)
 
-(Mongo required for MERN app)Our database will be created using MongoDB this is a RDMS that has many advantages. The most important advantage for us is the ability to store any file type and will allow us to store files that are uploaded to our site by different users. A major use of this is with user profiles and their display pictures. Mongo Atlas allows us to store our data in the cloud and connect it to our application. Still needs Mongoosejs (Schema building)
+Our database will be created using *MongoDB*, a NoSQL, non-relational database system. The most important advantage for us is the ability to store any file type in a document model and will allow us to store files that are uploaded to our site by different users. The major use case will be user profile display pictures.
 
-##### ReactJS
+*Mongo Atlas* allows us to store our data in the cloud and connect it to our application.
 
-(frontend)
+*Mongoose* is an object modelling solution that is used to interface with and create the schema for the Mongo database.
+
+##### [ReactJS](https://reactjs.org/)
+
+ReactJS will be used to create the interactive UI. The interface will automatically update to reflect data changes such as bookings made and court availability.
 
 
-##### Netlify 
+##### [Netlify](https://www.netlify.com/) 
 
-(frontend) testing, management system (repo to deployment)
+Netlify will host the ReactJS frontend code and assist with testing from the development to the production stage.
 
-##### Heroku
+[Heroku](https://www.heroku.com/)
 
-(backend) handling traffic, resources, management, device compatibility
+Heroku will host the backend code and handle traffic, resources, management and device compatibility.
 
-##### OAuth
+##### [OAuth](https://oauth.net/)
 
-This is how our application will handle Authentication and will provide much needed security for the application and the user data that will be handled. OAuth2.0 has improved security with API access using a token instead of login data for secure access and protection for user data.
+This is how our application will handle Authentication and will provide much needed security for the application and the user data that will be handled. OAuth 2.0 has improved security with API access using a token instead of login data for secure access and protection for user data.
 
-##### Stripe
+##### [Stripe](https://stripe.com/au)
 
-Will be used to handle payments and refunds for the application, the importance of stripe is that it is easy to use, setup and customise for our application and user experience.
+Stripe will be used to handle payments and refunds for the application. It is easy to use, setup and customise for our application and user experience.
 
-##### ToastUI Calendar
+##### [ToastUI Calendar](https://ui.toast.com/tui-calendar)
 
-Toast UI is a UI library for JS, we a specifically using the Calendar branch of Toast UI this core to the application as a calendar is needed to keep track of all events and bookings made at the tennis court (not just through the app but in person as well). Multiple features of the application will require access to the calendar or its data to keep information up to date and in sync. The reason for Toast UI specifically is because it is open source (free) and versatile, other software provides the features we need to build this application however some features are locked behind a paywall. Toast UI meets our requirements at no cost.(slight repetition)
+ToastUI is a JavaScript user interface library. We will be specifically using the Calendar features for the admin user to keep track of all events and bookings. Multiple features of the application will require access to the calendar or its data to keep information up to date and in sync. The main benefit of choosing this particular library is that it is open source (free) and versatile enough for our use case. Other options we considered provided the necessary features but required a paid subscription which wasn't an option for us.
 
-##### Multer
+##### [Multer](https://github.com/expressjs/multer)
 
 This is a middleware we will be using to manage form data and handle the storage of uploaded files to be stored in our database.
 (Potential compatibility issues)
@@ -82,7 +88,7 @@ The below *Dataflow Diagram* illustrates how/what data is passed around the appl
 
 ![DFD-Player & coach](docs/diagrams/DataFlowDiagram_player_coach.png)
 
-The below *Dataflow Diagram* illustrates the additional dataflows that exist for an Admin.
+The below *Dataflow Diagram* illustrates the additional dataflows that exist for an Admin user.
 
 ![DFD-Admin](docs/diagrams/DataFlowDiagram_admin.png)
 
@@ -96,6 +102,7 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 
 | AS A..     | I WANT TO..                                                  | SO THAT..                                                    |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Player** | Create a profile and upload a profile picture                |                                                              |
 | **Player** | Create a court booking                                       |                                                              |
 | **Player** | Hire additional gear as part of court booking                | only one transaction is required                             |
 |            | *include racquet & ball canister options*                    |                                                              |
@@ -103,6 +110,8 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 | **Player** | View my current bookings                                     |                                                              |
 | **Player** | View a current booking                                       |                                                              |
 | **Player** | Edit or Delete a current booking                             |                                                              |
+| **Coach**  | Create a profile and upload a profile picture                |                                                              |
+| **Coach**  | Create a court booking                                       |                                                              |
 | **Coach**  | Hire additional gear as part of court booking                | only one transaction is required                             |
 |            | *include racquet, ball canister & ball hopper options*       |                                                              |
 | **Coach**  | Send a message to the admin for assistance                   | I can have any query or problem resolved                     |
