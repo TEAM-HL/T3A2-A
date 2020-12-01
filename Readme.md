@@ -111,4 +111,8 @@ The home page for the wireframes is potentially the most key to the application.
 
 ![Phone-Home-Screen](docs/Phone/MERN-Home-Whim.PNG)
 
+Some additional features to the application include account types.  For example admin accounts will have access to a userlist to quickly find individuals and their profiles.
+
+![Phone-Userlist-Screen](docs/Phone/MERN-Userlist-Whim.PNG)
+
 ### Trello
