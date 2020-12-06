@@ -9,15 +9,15 @@
 
 ##### Client Requirements
 
-- Simple, easy to use UI 
+- Simple & easy to use UI 
 - online payments
 - Ability for coaches to advertise lessons on a member noticeboard
-- Admin functions to: 
+- Ability for Admin users to: 
   - post events on a member noticeboard
   - create, edit and delete any bookings
 
 ### Functionality / Features
-There are 3 types of user accounts: *Player*, *Coach* and Admin. 
+There are 3 types of user accounts: *Player*, *Coach* and *Admin*. 
 
 Users must create a profile first before a booking can be made and have the option of uploading a profile picture.
 
@@ -28,7 +28,6 @@ Admins can create, edit and delete any booking or any post on the virtual notice
 The homepage for the Player and Coach comprises a tennis court graphic that shows the current and next availability of each court. The Admin has an additional calendar interface to see bookings across days and weeks, as well as events.
 
 ### Target audience
-
 The target audience are the players and coaches that use the tennis court and the admin staff who run the court.
 
 ### Tech stack (explain what each part of the tech stack is doing)
@@ -50,8 +49,7 @@ Our database will be created using *MongoDB*, a NoSQL, non-relational database s
 
 ##### [ReactJS](https://reactjs.org/)
 
-ReactJS will be used to create the interactive UI. The interface will automatically update to reflect data changes such as bookings made and court availability.
-
+ReactJS will be used to create the interactive UI. The interface components will automatically update to reflect data changes such as bookings made and court availability.
 
 ##### [Netlify](https://www.netlify.com/) 
 
@@ -63,7 +61,7 @@ Heroku will host the backend code and handle traffic, resources, management and 
 
 ##### [OAuth](https://oauth.net/)
 
-This is how our application will handle Authentication and will provide much needed security for the application and the user data that will be handled. OAuth 2.0 has improved security with API access using a token instead of login data for secure access and protection for user data.
+This is how our application will handle authentication and will provide much needed security for the application and the user data that will be handled. OAuth 2.0 has improved security with API access using a token instead of login data for secure access and protection for user data.
 
 ##### [Stripe](https://stripe.com/au)
 
@@ -71,11 +69,11 @@ Stripe will be used to handle payments and refunds for the application. It is ea
 
 ##### [ToastUI Calendar](https://ui.toast.com/tui-calendar)
 
-ToastUI is a JavaScript user interface library. We will be specifically using the Calendar features for the admin user to keep track of all events and bookings. Multiple features of the application will require access to the calendar or its data to keep information up to date and in sync. The main benefit of choosing this particular library is that it is open source (free) and versatile enough for our use case. Other options we considered provided the necessary features but required a paid subscription which wasn't an option for us.
+ToastUI is a JavaScript user interface library. We will be specifically using the Calendar features for the admin user to keep track of all events and bookings. Multiple features of the application will require access to the calendar or its data to keep information up to date and in sync. The main benefit of choosing this particular library is that it is open source and versatile enough for our use case. Other options we considered provided the necessary features but required a paid subscription which wasn't an option for us.
 
 ##### [Multer](https://github.com/expressjs/multer)
 
-Multer is a middleware that will manage form data and handle the storage of uploaded files to be stored in our database.
+Multer is a middleware that will manage form data and handle the storage of uploaded files in our database.
 
 ### Context / Dataflow Diagrams
 
