@@ -139,7 +139,10 @@ Tablet (availability) | Desktop (nav bar)
 
 ### Trello
 
-We opted for a kanban board template and set 3 coloured labels indicating priority (low, med, critical) and 2 coloured labels indicating whether the card is associated with the backend or the frontend. When a card is in the 'To-Do' or 'Doing' list, it is given a due date, and ticked off when completed.
+We opted for a kanban board template and set 3 coloured labels indicating priority (low, med, critical) and 2 coloured labels indicating whether the card is associated with the backend or the frontend. When a card is in the 'To-Do' or 'Doing' list, it is given a due date and ticked off when completed. When working on a card, the dev assigns themselves to it so that division of work is clear.
+
+[Link to Trello Board](https://trello.com/b/GHuhu7dd/courts)<br>
+[Link to join Trello board](https://trello.com/invite/b/GHuhu7dd/83360285c1d87db8a435d2308b86d1e2/courts)
 
 ![Trello-Full](docs/Trello/Trello-Full.PNG)
 
