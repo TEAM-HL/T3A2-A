@@ -139,6 +139,8 @@ Tablet (availability) | Desktop (nav bar)
 
 ### Trello
 
+We opted for a kanban board template and set 3 coloured labels indicating priority (low, med, critical) and 2 coloured labels indicating whether the card is associated with the backend or the frontend. When a card is in the 'To-Do' or 'Doing' list, it is given a due date, and ticked off when completed.
+
 ![Trello-Full](docs/Trello/Trello-Full.PNG)
 
 ![Trello-Activities](docs/Trello/Trello-Recent-Activity.PNG)
