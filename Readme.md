@@ -138,3 +138,11 @@ Tablet (availability) | Desktop (nav bar)
 ![Tablet-Home-Screen](docs/Tablet/MERN-Home-Whim-T.PNG) | ![Desktop-Bookingslist-Screen](docs/Desktop/MERN-Bookingslist-Whim-D.PNG)
 
 ### Trello
+
+![Trello-Full](docs/Trello/Trello-Full.PNG)
+
+![Trello-Activities](docs/Trello/Trello-Recent-Activity.PNG)
+
+![Trello-Card-Dataflow](docs/Trello/Trello-Card-Dataflow.PNG)
+
+![Trello-Card-Wireframe](docs/Trello/Trello-Card-Wireframes.PNG)
