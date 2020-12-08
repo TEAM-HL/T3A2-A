@@ -123,7 +123,7 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 
 The home page for the wireframes is potentially the most key to the application.  This is because a huge focus of the app (client requirement) is to improve the customer experience of interacting with the business.  With this we have tried to design the home screen to deliver the most important information to the customer as effectively as possible (Court availability).
 
-https://whimsical.com/mern-v3MZpTtLABX88ZMJNVE96
+[Link to all Wireframes](https://whimsical.com/mern-v3MZpTtLABX88ZMJNVE96)
 
 ![Phone-Home-Screen](docs/Phone/MERN-Home-Whim.PNG)
 
