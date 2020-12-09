@@ -59,9 +59,9 @@ Netlify will host the ReactJS frontend code and assist with testing from the dev
 
 Heroku will host the backend code and handle traffic, resources, management and device compatibility.
 
-##### [OAuth](https://oauth.net/)
+##### [Passport](http://www.passportjs.org/)
 
-This is how our application will handle authentication and will provide much needed security for the application and the user data that will be handled. OAuth 2.0 has improved security with API access using a token instead of login data for secure access and protection for user data.
+For user authentication purposes, we will be using Passport - a NodeJS middleware which plays well with ExpressJS and provides a number of different 'strategies' for authentication using JSON Web Tokens (JWT). We will implement JWT method for the initial MVP and will consider implementing the OAuth 2.0 strategy as an additonal feature.
 
 ##### [Stripe](https://stripe.com/au)
 
@@ -76,14 +76,18 @@ ToastUI is a JavaScript user interface library. We will be specifically using th
 Multer is a middleware that will manage form data and handle the storage of uploaded files in our database.
 
 ### Context / Dataflow Diagrams
-
+#### Context Diagram 
 The below *context diagram* gives a birds-eye view of the inputs and outputs related to the core purpose of the application. 
 
 ![CD-input&output](docs/diagrams/ContextDiagram.png)
 
+#### Data Flow Diagram - Player & Coach
+
 The below *Dataflow Diagram* illustrates how/what data is passed around the application from the perspective of a Player or Coach.
 
 ![DFD-Player & coach](docs/diagrams/DataFlowDiagram_player_coach.png)
+
+#### Data Flow Diagram - Admin
 
 The below *Dataflow Diagram* illustrates the additional dataflows that exist for an Admin user.
 
