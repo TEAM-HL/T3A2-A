@@ -99,6 +99,12 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 
 ### 
 
+### Original User Stories
+
+![Old-User-Story-Player](docs/OldUserStories/UserStoryPlayerOld.PNG)
+![Old-User-Story-Coach](docs/OldUserStories/UserStoryCoachOld.PNG)
+![Old-User-Story-Admin](docs/OldUserStories/UserStoryAdminOld.PNG)
+
 ### User Stories
 
 | AS A..     | I WANT TO..                                                  | SO THAT..                                                    |
