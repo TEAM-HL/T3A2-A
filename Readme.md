@@ -111,6 +111,8 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 
 ### User Stories
 
+With the new user stories we wanted to be more succint with the information we were communicating and show more accurately what our users ere trying to achieve through the use of the application.  The originals only navigated through the actions users could take on the site where as below users have clear goals and we've outlined.  The features of the application have been designed to meet these requirements.
+
 | AS A..     | I WANT TO..                                                  | SO THAT..                                                    |
 | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | **Player** | Create a profile and upload a profile picture                |                                                              |
