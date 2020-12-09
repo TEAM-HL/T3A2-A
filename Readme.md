@@ -97,7 +97,16 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 
 ![AAD](docs/diagrams/MERN-Architecture-Diagram.png)
 
-### 
+### Personas
+
+![Player-Persona](docs/personas/Patricia-Player.PNG)
+![Admin-Persona](docs/personas/addie-admin.PNG)
+
+### Original User Stories
+
+![Old-User-Story-Player](docs/OldUserStories/UserStoryPlayerOld.PNG)
+![Old-User-Story-Coach](docs/OldUserStories/UserStoryCoachOld.PNG)
+![Old-User-Story-Admin](docs/OldUserStories/UserStoryAdminOld.PNG)
 
 ### User Stories
 
@@ -152,8 +161,8 @@ We opted for a kanban board template and set 3 coloured labels indicating priori
 
 ![Trello-Full](docs/Trello/Trello-Full.PNG)
 
+Trello Dataflow card | Trello Wireframe card
+:--:|:--:
+![Trello-Card-Dataflow](docs/Trello/Trello-Card-Dataflow.PNG)  |  ![Trello-Card-Wireframe](docs/Trello/Trello-Card-Wireframes.PNG)
+
 ![Trello-Activities](docs/Trello/Trello-Recent-Activity.PNG)
-
-![Trello-Card-Dataflow](docs/Trello/Trello-Card-Dataflow.PNG)
-
-![Trello-Card-Wireframe](docs/Trello/Trello-Card-Wireframes.PNG)
