@@ -99,6 +99,8 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 
 ### Personas
 
+We created 3 personas to match the 3 different user types that the app accommodates. 
+
 ![Player-Persona](docs/personas/Patricia-Player.PNG)
 ![Coach-Persona](docs/personas/coach-carter.png)
 ![Admin-Persona](docs/personas/addie-admin.PNG)
