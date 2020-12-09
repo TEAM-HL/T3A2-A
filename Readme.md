@@ -109,7 +109,7 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 ![Old-User-Story-Coach](docs/OldUserStories/UserStoryCoachOld.PNG)
 ![Old-User-Story-Admin](docs/OldUserStories/UserStoryAdminOld.PNG)
 
-### User Stories
+### New User Stories
 
 With the new user stories we wanted to be more succint with the information we were communicating and show more accurately what our users ere trying to achieve through the use of the application.  The originals only navigated through the actions users could take on the site where as below users have clear goals and we've outlined.  The features of the application have been designed to meet these requirements.
 
