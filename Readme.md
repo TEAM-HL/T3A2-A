@@ -97,7 +97,10 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 
 ![AAD](docs/diagrams/MERN-Architecture-Diagram.png)
 
-### 
+### Personas
+
+![Player-Persona](docs/personas/Patricia-Player.PNG)
+![Admin-Persona](docs/personas/addie-admin.PNG)
 
 ### Original User Stories
 
