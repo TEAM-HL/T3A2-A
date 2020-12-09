@@ -100,8 +100,8 @@ The below *Dataflow Diagram* illustrates the additional dataflows that exist for
 ### Personas
 
 ![Player-Persona](docs/personas/Patricia-Player.PNG)
-![Admin-Persona](docs/personas/addie-admin.PNG)
 ![Coach-Persona](docs/personas/coach-carter.png)
+![Admin-Persona](docs/personas/addie-admin.PNG)
 
 ### Original User Stories
 
